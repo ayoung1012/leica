@@ -1,0 +1,10 @@
+$(function(){
+    $(".box").on({
+        mouseover:function(){
+            $(this).find(".all").stop().slideDown();
+        },
+        mouseout:function(){
+            $(this).find(".all").stop().slideUp();
+        }
+    })
+});
