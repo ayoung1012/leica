@@ -1,0 +1,10 @@
+$(function(){
+    $(".box").on({
+        click:function(){
+            $(this).find(".all").stop().slideDown().css({transition:'5s'});
+        },
+        mouseout:function(){
+            $(this).find(".all").stop().slideUp().css({transition:'5s'});
+        }
+    })
+});
