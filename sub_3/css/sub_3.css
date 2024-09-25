@@ -1,0 +1,649 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo .logo_i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+header .logo nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header .logo nav ul {
+    display: flex;
+}
+
+header .logo nav ul li {
+    margin-right: 40px;
+}
+
+header .allmenu {
+    display: flex;
+}
+
+header .allmenu .menu {
+    display: flex;
+    margin-right: 30px;
+}
+
+header .allmenu .menu a {
+    margin-right: 10px;
+}
+
+header .allmenu .menu a img {
+    color: #000;
+}
+
+/* //header */
+
+/* submenu */
+.submenu {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    z-index: 9990;
+    top: 0;
+    right: -100%;
+  }
+  
+  .submenu .close {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 2.5rem;
+    border: none;
+    background: none
+  }
+  
+  
+  .submenu ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .submenu li a {
+    display: block;
+  }
+  
+  /* //submenu */
+
+
+/* main */
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+main #main_i {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+main #main_i .main_bg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+main #main_i .main_text {
+    font-size: 3rem;
+    line-height: 180%;
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+main #main_i .main_camera {
+    position: absolute;
+    top: 33%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+/* //main */
+
+
+/* section */
+section {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 40px;
+    margin-top: 180px;
+    display: flex;
+    align-content: center;
+}
+
+section h2 {
+    width: 50%;
+    font-size: 3rem;
+    line-height: 150%;
+}
+
+section p {
+    width: 50%;
+    line-height: 180%;
+}
+
+section p span {
+    color: #e30613;
+}
+
+/* //section */
+
+/* contents */
+#contents {
+    width: 100%;
+    background-color: #000;
+    margin-top: 180px;
+    padding: 30px 0;
+}
+
+#contents h2 {
+    color: #e30613;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contents .all {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contents .all .text {
+    margin-right: 30px;
+    padding: 20px 0;
+}
+
+#contents .all .text p {
+    margin: 0;
+}
+
+#contents .all span {
+    color: #e30613;
+}
+
+#contents .all .text h4 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#contents .all .text .p1 {
+    line-height: 180%;
+    margin-bottom: 200px;
+}
+
+#contents .all .text p {
+    line-height: 180%;
+}
+
+#contents .all .img figure {
+    width: 80%;
+}
+
+/* //contents */
+
+/* aca */
+#academy {
+    width: 100%;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+#academy h2 {
+    color: #e30613;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#academy .allbox {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#academy .allbox .box {
+    width: 30%;
+    padding: 10px;
+}
+#academy .allbox .box span {
+    font-weight: 900;
+    line-height: 170%;
+    display: block;
+    margin-top: 20px;
+}
+
+#academy .allbox .box p {
+    line-height: 180%;
+    margin: 0;
+}
+
+.aca{
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: inherit;
+    color: #e30613;
+    border: 3px solid #e30613;
+}
+
+/* //aca */
+
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 0 100px;
+}
+
+footer .f_header {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .f_header .sns {
+    display: flex;
+}
+
+footer .f_header .sns .face {
+    margin-right: 30px;
+}
+
+footer .ftmenu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+footer .ftmenu .title {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+footer .ftmenu .list {
+    margin-bottom: 30px;
+}
+
+footer .fcompany {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer .fcompany ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .fcompany ul li {
+    margin-right: 50px;
+    font-size: 0.8rem;
+    line-height: 180%;
+}
+
+footer .fcompany ul li:last-child {
+    margin-right: 0;
+}
+
+footer .copy {
+    width: 100%;
+    padding: 0 170px;
+}
+
+footer .copy p {
+    width: 100%;
+    height: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+/* //footer */
+
+@media screen and (max-width:1670px) {
+    main {
+        height: 80vh;
+    }
+
+    main #main_i .main_text {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    html {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:1450px) {
+    main #main_i .main_text {
+        font-size: 2.6rem;
+        top: 17%;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    main #main_i .main_text {
+        font-size: 2.4rem;
+        top: 19%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    html {
+        font-size: 14px;
+    }
+
+    header .logo nav ul {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+    main #main_i .main_text {
+        font-size: 2.2rem;
+    }
+    
+}
+
+@media screen and (max-width:1120px) {
+    main {
+        height: 55vh;
+    }
+
+    main #main_i .main_text {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:1030px) {
+
+    main #main_i .main_text {
+        font-size: 2rem;
+    }
+    section h2 {
+        font-size: 2.7rem;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    header {
+        padding: 0 40px;
+    }
+    main #main_i .main_text {
+        font-size: 1.8rem;
+    }
+    footer {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    main #main_i .main_text {
+        font-size: 1.7rem;
+        top: 15%;
+    }
+    section h2 {
+        font-size: 2.4rem;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+
+    main #main_i .main_text {
+        font-size: 1.6rem;
+        top: 16%;
+    }
+
+    section {
+        padding: 0 20px;
+        margin-top: 55px;
+    }
+
+    #contents .all .img figure {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:800px) {
+    main #main_i .main_text{
+        z-index: 9;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    main {
+        height: 40vh;
+    }
+
+    main #main_i .main_text {
+        font-size: 1.4rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    main #main_i .main_text{
+        z-index: 9;
+    }
+}
+
+@media screen and (max-width:575px) {
+    html {
+        font-size: 12px;
+    }
+    header{
+        padding: 0 16px;
+    }
+    main #main_i .main_text {
+        font-size: 1.8rem;
+        top: 61%;
+        z-index: 99;
+    }
+
+    main #main_i .main_camera {
+        width: 100%;
+        top: 40%;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        width: 100%;
+        padding: 0 16px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section h2 {
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    section p {
+        width: 100%;
+    }
+
+    #contents .all {
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contents .all .text .p1 {
+        margin-bottom: 100px;
+    }
+
+    #contents .all .text p>br {
+        display: none;
+    }
+
+    #contents .all .img {
+        margin-bottom: 50px;
+    }
+
+    button {
+        display: none;
+    }
+
+    #academy .allbox .box{
+        margin-right: 10px;
+    }
+    #academy .allbox .box figure{
+        margin: auto;
+    }
+    #academy .allbox .box .text{
+        margin: auto;
+    }
+    #academy .allbox .box span {
+        font-size: 1.8rem;
+    }
+    footer{
+        padding: 0 16px;
+    }
+    footer .ftmenu {
+        display: none;
+    }
+
+    footer .fcompany {
+        margin-top: 50px;
+    }
+
+    footer .fcompany ul {
+        flex-direction: column;
+    }
+
+    footer .fcompany ul li {
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+
+    footer .copy {
+        padding: 0;
+    }
+
+    footer .copy p {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:390px){
+    main #main_i .main_camera{
+        left: 50%;
+    }    
+}
+
+@media screen and (max-width:380px) {
+    main {
+        height: 50vh;
+    }
+
+    main #main_i .main_camera {
+        width: 90%;
+        left: 50%;
+    }
+
+    main #main_i .main_text {
+        font-size: 1.5rem;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
+
+@media screen and (max-height:430px) {
+    main #main_i .main_camera{
+        width: 35%;
+        top: 50%;
+    }
+    section{
+        margin-top: 100px;
+    }
+    .submenu .close{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .submenu ul li{
+        margin-top: 0;
+        font-size: 21px;
+    }
+    #contents .all .text .p1{
+        margin-bottom: 90px;
+    }
+}
