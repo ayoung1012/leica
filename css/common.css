@@ -1,0 +1,40 @@
+html {
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@800&display=swap');
+
+/* font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal; */
+
+/* font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; */
+
+
+h2,
+h3,
+h4,
+.product>.m_box>.m_camera>.m_add>.addtext,
+
+.ex_texttitle .title,
+.ser_title,
+.box_title,
+.box_number,
+.s_add {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+

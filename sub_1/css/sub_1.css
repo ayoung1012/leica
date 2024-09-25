@@ -1,0 +1,505 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* header */
+header {
+    width: 100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo .logo_i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+header .logo nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header .logo nav ul {
+    display: flex;
+}
+
+header .logo nav ul li {
+    margin-right: 40px;
+}
+
+header .allmenu {
+    display: flex;
+}
+
+header .allmenu .menu {
+    display: flex;
+    margin-right: 30px;
+}
+
+header .allmenu .menu a {
+    margin-right: 10px;
+}
+
+header .allmenu .menu a img {
+    color: #000;
+}
+
+/* //header */
+
+/* submenu */
+.submenu {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    z-index: 9990;
+    top: 0;
+    right: -100%;
+  }
+  
+  .submenu .close {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 2.5rem;
+    border: none;
+    background: none
+  }
+  
+  
+  .submenu ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .submenu li a {
+    display: block;
+  }
+  
+  /* //submenu */
+
+
+/* main */
+main {
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+/* //main */
+
+/* section */
+section {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 40px;
+    margin-bottom: 200px;
+}
+
+section #img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+section #img figure {
+    width: 100%;
+    margin-right: 50px;
+}
+
+section #img .text {
+    width: 100%;
+}
+
+section #img .text h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 170%;
+    margin-bottom: 55px;
+}
+
+section #img .text .title {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+section #img .text .t {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+section #img .text p {
+    line-height: 200%;
+}
+
+/* //section */
+
+
+/* contents */
+#contents {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 200px;
+    gap: 0 10px;
+}
+
+#contents .box {
+    margin-bottom: 120px;
+}
+
+#contents .box h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 170%;
+    margin-top: 24px;
+    margin-bottom: 33px;
+}
+
+#contents .box p {
+    line-height: 180%;
+}
+
+#contents .box:nth-child(3) p {
+    margin-top: 24px;
+}
+
+/* //contents */
+
+
+/* store */
+#store {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+#store h2 {
+    padding: 150px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #e30613;
+}
+
+#store .allbox {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#store .allbox .box .title {
+    display: block;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#store .allbox .box {
+    margin-bottom: 50px;
+}
+
+#store .allbox .box .text {
+    line-height: 170%;
+}
+
+/* //store */
+
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 0 100px;
+}
+
+footer .f_header {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .f_header .sns {
+    display: flex;
+}
+
+footer .f_header .sns .face {
+    margin-right: 30px;
+}
+
+footer .ftmenu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+footer .ftmenu .title {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+footer .ftmenu .list {
+    margin-bottom: 30px;
+}
+
+footer .fcompany {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer .fcompany ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .fcompany ul li {
+    margin-right: 50px;
+    font-size: 0.8rem;
+    line-height: 180%;
+}
+
+footer .fcompany ul li:last-child {
+    margin-right: 0;
+}
+
+footer .copy {
+    width: 100%;
+    padding: 0 170px;
+}
+
+footer .copy p {
+    width: 100%;
+    height: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+/* //footer */
+
+
+
+@media screen and (max-width:1600px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    html {
+        font-size: 14px;
+    }
+
+    header .logo nav ul {
+        display: none;
+    }
+
+    section #img .text h2 {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    section #img .text h2 {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    header {
+        padding: 0 40px;
+    }
+
+    section #img figure {
+        margin-right: 20px;
+    }
+
+    section #img .text h2 {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    section #img .text h2 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    #contents .box h4>br {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    section #img .text h2 {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+    section #img .text h2 {
+        font-size: 1.2rem;
+    }
+
+    section #img .text p>br {
+        display: none;
+    }
+}
+    @media screen and (max-width:700px) {
+        html {
+            font-size: 13px;
+        }
+
+        section #img .text h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    @media screen and (max-width:620px) {
+        section #img {
+            grid-template-columns: 1fr;
+        }
+
+        section #img figure {
+            grid-column: auto;
+            grid-row: auto;
+            order: 2;
+        }
+
+        section #img .text .title {
+            grid-column: auto;
+            grid-row: auto;
+            order: 1;
+        }
+
+        section #img .text .t {
+            grid-column: auto;
+            grid-row: auto;
+            order: 3;
+        }
+
+    }
+
+    @media screen and (max-width:575px) {
+        html {
+            font-size: 12px;
+        }
+        header{
+        padding: 0 16px;
+        }  
+        section{
+        padding: 0 16px;
+        }
+        section #img .text h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        #contents {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 0 16px;
+        }
+
+        #contents .box h4 {
+            margin-bottom: 15px;
+        }
+        #store h2{
+            padding: 80px;
+        }
+        #store .allbox {
+            grid-template-columns: repeat(1, 1fr);
+            padding:0 16px;
+        }
+
+        #store .allbox .box {
+            margin: auto;
+        }
+        footer{
+            padding:0 16px;
+        }
+        footer .ftmenu {
+            display: none;
+        }
+
+        footer .fcompany {
+            margin-top: 50px;
+        }
+
+        footer .fcompany ul {
+            flex-direction: column;
+        }
+
+        footer .fcompany ul li {
+            font-size: 1rem;
+            margin-bottom: 50px;
+        }
+
+        footer .copy {
+            padding: 0;
+        }
+
+        footer .copy p {
+            justify-content: flex-start;
+        }
+    }
+    @media screen and (max-width:450px) {
+        #store h2{
+            padding: 40px;
+        }
+    }
+    
+    @media screen and (max-height:430px) {
+        .submenu .close{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .submenu ul li{
+            margin-top: 0;
+            font-size: 21px;
+        }
+    }

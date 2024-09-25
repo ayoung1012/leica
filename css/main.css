@@ -1,0 +1,1372 @@
+/* header */
+header {
+    width: 100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .logo .logo_i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+header .logo nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header .logo nav ul {
+    display: flex;
+}
+
+header .logo nav ul li {
+    margin-right: 40px;
+}
+
+header .allmenu {
+    display: flex;
+}
+
+header .allmenu .menu {
+    display: flex;
+    margin-right: 30px;
+}
+
+header .allmenu .menu a {
+    margin-right: 10px;
+}
+/* //header */
+
+/* submenu */
+.submenu {
+    width: 100%;
+    height: 900px;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    z-index: 9990;
+    top: 0;
+    right: -100%;
+  }
+  
+  .submenu .close {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 2.5rem;
+    border: none;
+    background: none
+  }
+  
+  
+  .submenu ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .submenu li a {
+    display: block;
+  }
+  
+  /* //submenu */
+
+/* main */
+main {
+    width: 100%;
+    height: 300vh;
+}
+
+main #main_i {
+    width: 100%;
+    height: 200vh;
+    position: relative;
+}
+
+main #main_i .main_bg {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+
+main #main_i .main_bgline {
+    width: 90%;
+    height: 90vh;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+main #main_i .main_camera {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+main #main_i .main_camera img {
+    width: 100%;
+}
+
+main #main_i .main_text {
+    position: absolute;
+    top: 28%;
+    left: 15%;
+}
+
+main #main_i .main_text h2 {
+    font-size: 3.5rem;
+    line-height: 150%;
+}
+
+
+/* banner */
+main #allbanner {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+
+main #allbanner .banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 100px;
+    background-color: #000;
+    position: absolute;
+    border-bottom-right-radius: 300px;
+}
+
+main #allbanner .banner h3 {
+    font-size: 2rem;
+    line-height: 180%;
+}
+
+main #allbanner .banner .slide {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+main #allbanner .banner .slide .sldiebox {
+    width: 100%;
+    height: 100%;
+}
+
+main #allbanner .banner .slide_i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main #allbanner .banner .slide_i:nth-child(4) {
+    z-index: 1;
+    opacity: 0;
+}
+
+main #allbanner .banner .slide_i:nth-child(3) {
+    z-index: 2;
+    opacity: 0;
+}
+
+main #allbanner .banner .slide_i:nth-child(2) {
+    z-index: 3;
+    opacity: 0;
+}
+
+main #allbanner .banner .slide_i:nth-child(1) {
+    z-index: 4;
+}
+
+main #allbanner .banner p {
+    padding: 0 100px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 1.2rem;
+    line-height: 180%;
+}
+
+/* //banner */
+/* //main */
+
+/* product */
+.product {
+    width: 100%;
+    padding: 50px 100px;
+    background-color: #fff;
+    color: #000;
+}
+.product .product_i{
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+}
+.product .p_header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .p_header h2 {
+    font-size: 5rem;
+    color: #E30613;
+    font-weight: 800;
+}
+
+.product .p_header ul {
+    display: flex;
+}
+
+.product .p_header ul li {
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.product .p_header ul li:nth-child(7) {
+    margin-right: 0;
+}
+
+.product .p_header ul li span {
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #E30613;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.product .p_header .sel {
+    height: 50px;
+    border: 2px solid #E30613;
+    display: none;
+}
+
+.product .allbox {
+    width: 100%;
+    height: 115vh;
+    position: relative;
+}
+
+.product .allbox .box {
+    width: 100%;
+    height: 115vh;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product .allbox .box:first-child {
+    display: block;
+}
+
+.product .allbox .box .title h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.product .allbox .box .title p {
+    font-size: 1.5rem;
+}
+
+.product .allbox .box .camera {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product .allbox .box .camera .text {
+    text-align: center;
+}
+
+.product .allbox .box .camera h4 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.product .allbox .box .camera p {
+    font-size: 1.4rem;
+}
+
+.product .allbox .box .camera .add {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.product .allbox .box .camera .add .addtext {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #E30613;
+    margin-right: 30px;
+}
+
+/* //product */
+
+/* exhibition */
+.exhibition {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.exhibition h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #E30613;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.exhibition .box {
+    width: calc(100% - 300px);
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.exhibition .box .ex_text {
+    width: 80%;
+    position: absolute;
+    left: 0;
+}
+
+.exhibition .box .ex_text .title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 180%;
+}
+
+.exhibition .box .ex_text .text1 {
+    margin-top: 50px;
+}
+
+.exhibition .box .ex_text .text1 p {
+    margin-bottom: 30px;
+}
+
+.exhibition .box .ex_text .line {
+    width: 90%;
+    min-width: 350px;
+    max-width: 600px;
+    border: 2px solid #E30613;
+    margin: 50px 0;
+}
+
+.exhibition .box .ex_text .text2 p {
+    margin-bottom: 30px;
+    line-height: 170%;
+}
+
+.exhibition .box .img {
+    width: 50%;
+}
+
+/* //exhibition */
+
+
+/* class */
+.class {
+    width: 100%;
+    margin-top: 150px;
+    padding: 50px 0;
+    background-image: url(../images/class/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.class #allbox1 {
+    width: 100%;
+    max-width: 1340px;
+    padding: 0 40px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.class #allbox2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.class #allbox2>div {
+    min-height: 300px;
+}
+
+.class #allbox2 .box1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.class #allbox2 .box1 .box1_title {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.class #allbox2 .box1 p {
+    line-height: 170%;
+    padding-right: 50px;
+}
+
+.class #allbox2 .box2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.class #allbox2 .box2 .box2_title {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.class #allbox2 .box2 .box2_text p {
+    line-height: 170%;
+}
+
+.class #allbox2 .box2 .box2_text p:nth-child(2) {
+    margin: 30px 0;
+}
+
+.class #allbox2 .box2 .box2_text p:nth-child(3) {
+    margin-bottom: 80px;
+}
+
+.class #allbox2 .box2 .about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.class #allbox2 .box2 .about .about_title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #E30613;
+    margin-right: 20px;
+}
+
+.class #allbox2 .img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+/* //class */
+
+
+/* store */
+.store {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    overflow: hidden;
+}
+
+.store #store_i {
+    margin-bottom: 150px;
+}
+
+.store h2 {
+    padding-left: 300px;
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #E30613;
+}
+
+.store .slide {
+    width: 100%;
+    padding-left: 300px;
+}
+
+.store .slide .slidebox {
+    display: flex;
+
+}
+
+.store .slide .slidebox .slide_i {
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    border: 1px solid #E30613;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.store .slide .slidebox .slide_i:last-child {
+    margin-right: 0;
+}
+
+.store .slide .slidebox .sldie_i .title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.store .slide .slidebox .slide_i img {
+    margin: 30px 0;
+}
+
+.store .slide .slidebox .slide_i .text {
+    line-height: 180%;
+}
+
+/* //store */
+
+/* service */
+.service {
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+.service h2 {
+    font-size: 2rem;
+    color: #E30613;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.service .allbox {
+    width: 100%;
+    max-width: 1340px;
+    padding: 0 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service .allbox .box {
+    width: 48%;
+    padding: 44px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.service .allbox .box .box_t {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.service .allbox .box .box_tx {
+    height: 50px;
+    font-size: 1.3rem;
+    margin-bottom: 100px;
+    line-height: 180%;
+}
+
+.service .allbox .box .sbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service .allbox .box .sbox .s_add {
+    font-size: 1.6rem;
+}
+
+/* //service */
+
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding: 0 100px;
+}
+
+footer .f_header {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .f_header .sns {
+    display: flex;
+}
+
+footer .f_header .sns .face {
+    margin-right: 30px;
+}
+
+footer .ftmenu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+footer .ftmenu .title {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+footer .ftmenu .list {
+    margin-bottom: 30px;
+}
+
+footer .fcompany {
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer .fcompany ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .fcompany ul li {
+    margin-right: 50px;
+    font-size: 0.8rem;
+    line-height: 180%;
+}
+
+footer .fcompany ul li:last-child {
+    margin-right: 0;
+}
+
+footer .copy {
+    width: 100%;
+    padding: 0 170px;
+}
+
+footer .copy p {
+    width: 100%;
+    height: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+/* //footer */
+
+@media screen and (max-width:1700px) {
+    main #main_i .main_camera {
+        top: 3%;
+    }
+
+    main #main_i .main_text {
+        top: 25%;
+    }
+
+    .exhibition .box .ex_text .title {
+        font-size: 2.4rem;
+    }
+
+    .exhibition .box .ex_text .line {
+        width: 53%;
+    }
+}
+
+
+@media screen and (max-width:1600px) {
+    main #main_i .main_camera img {
+        width: 90%;
+    }
+
+    main #main_i .main_text {
+        top: 22%;
+    }
+
+    main #main_i .main_text h2 {
+        font-size: 3.3rem;
+    }
+
+    main #allbanner .banner p>br {
+        display: none;
+    }
+    .exhibition .box {
+        width: calc(100% - 153px);
+        margin-left: 153px;
+    }
+    .exhibition .box .img {
+        width: 50%;
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width:1500px) {
+    .exhibition .box {
+        margin-left: 95px;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    main #main_i .main_camera {
+        top: 0;
+    }
+
+    main #main_i .main_text {
+        top: 20%;
+    }
+
+    .exhibition .box {
+        width: calc(100% - 100px);
+        margin: auto;
+        justify-content: flex-end;
+    }
+    .exhibition .box .img {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .store #store_i .slide .slidebox .slide_i {
+        height: 550px;
+    }
+
+    footer .copy {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    html {
+        font-size: 15px
+    }
+
+    header {
+        padding: 0 40px;
+    }
+
+    header .logo nav ul {
+        display: none;
+    }
+
+    main {
+        height: 270vh;
+    }
+
+    main #main_i {
+        height: 170vh;
+    }
+
+    main #main_i .main_camera img {
+        width: 80%;
+    }
+    main #main_i .main_text h2 {
+        font-size: 3rem;
+    }
+
+    main #allbanner .banner {
+        padding: 0 40px;
+    }
+
+    main #allbanner .banner .slide_i {
+        width: 70%;
+    }
+
+    main #allbanner .banner p {
+        padding: 0 40px;
+        font-size: 1.4rem;
+    }
+
+    .product {
+        padding: 50px 40px;
+    }
+    .exhibition .box {
+        width: calc(100% - 80px);
+    }
+
+    .exhibition .box .ex_text .line {
+        width: 49%;
+    }
+
+    .exhibition .box .img {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .class {
+        margin-top: 300px;
+    }
+
+    .store h2 {
+        padding: 0 40px;
+    }
+
+    .store .slide {
+        padding-left: 40px;
+    }
+
+    footer {
+        padding: 0 40px;
+    }
+
+    footer .fcompany {
+        width: 100%;
+    }
+
+    footer .fcompany ul li {
+        margin-right: 30px;
+    }
+
+    footer .copy {
+        padding: 0;
+    }
+}
+@media screen and (max-width:1100px) {
+    main #main_i .main_camera {
+        top: -30px;
+    }
+
+    main #main_i .main_text {
+        top: 18%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    html {
+        font-size: 14px;
+    }
+
+    main #main_i .main_camera {
+        top: 0;
+    }
+
+    main #main_i .main_camera img {
+        width: 70%;
+    }
+    main #main_i .main_text h2 {
+        font-size: 2.8rem;
+    }
+    main #main_i .main_text {
+        top: 16%;
+    }
+    .product .p_header h2 {
+        font-size: 4.5rem;
+    }
+    .product .allbox .box{
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:900px) {
+    header {
+        padding: 0 36px;
+    }
+
+    main #main_i .main_text {
+        top: 14%;
+    }
+
+    main #allbanner .banner {
+        padding: 0 36px;
+        border-bottom-right-radius: 200px;
+    }
+
+    main #allbanner .banner p {
+        padding: 0 36px;
+    }
+
+    main #allbanner .banner p>br {
+        display: none;
+    }
+
+    .product {
+        padding: 50px 36px;
+    }
+
+    .product .p_header h2 {
+        font-size: 3.7rem;
+    }
+
+    .product .p_header ul li {
+        margin-right: 10px;
+    }
+    .exhibition .box .ex_text .title {
+        font-size: 2rem;
+    }
+
+    .exhibition .box .img {
+        margin-top: 50px;
+    }
+
+    .store h2 {
+        padding: 0 36px;
+    }
+
+    .store .slide {
+        padding-left: 36px;
+    }
+
+    footer {
+        padding: 0 36px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    main {
+        height: 250vh;
+    }
+
+    main #main_i {
+        height: 150vh;
+    }
+    main #main_i .main_text h2 {
+        font-size: 2.3rem;
+    }
+
+    main #allbanner .banner {
+        border-bottom-right-radius: 150px;
+    }
+
+    main #allbanner .banner .slide_i {
+        width: 90%;
+    }
+    .store h2 {
+        margin-bottom: 130px;
+    }
+
+    .service .allbox .box {
+        padding: 30px;
+    }
+
+    .exhibition .box .ex_text .title {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header {
+        padding: 0 28px;
+    }
+
+    main #main_i .main_text {
+        top: 13%;
+    }
+
+    main #main_i .main_text h2 {
+        font-size: 2.4rem;
+    }
+
+    main #allbanner .banner {
+        padding: 0 28px;
+        border-bottom-right-radius: 150px;
+    }
+
+    main #allbanner .banner .slide_i {
+        width: 80%;
+    }
+
+    .product {
+        padding: 50px 28px;
+    }
+
+    .class #allbox1 .box_title {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .class #allbox2 {
+        grid-template-columns: 1fr;
+    }
+
+    .class #allbox2>div {
+        min-height: 0;
+    }
+
+    .class #allbox2 .box1 {
+        grid-column: auto;
+        grid-row: auto;
+        order: 1;
+    }
+
+    .class #allbox2 .box2 {
+        grid-column: auto;
+        grid-row: auto;
+        order: 3;
+    }
+
+    .class #allbox2 .box2 .about {
+        width: fit-content;
+        margin: 30px auto;
+    }
+
+    .class #allbox2 .img {
+        width: 50%;
+        margin: auto;
+        grid-column: auto;
+        grid-row: auto;
+        order: 2;
+    }
+
+    .store .slide {
+        padding-left: 28px;
+    }
+
+    footer {
+        padding: 0 28px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    main #main_i .main_text {
+        top: 12%;
+    }
+
+    main #main_i .main_text h2 {
+        font-size: 2.3rem;
+    }
+
+    .product .p_header {
+        margin-bottom: 0;
+    }
+
+    .product .p_header h2 {
+        font-size: 3rem;
+    }
+
+    .product .p_header ul li {
+        margin-right: 7px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    main #main_i .main_text h2 {
+        font-size: 2rem;
+    }
+    main #main_i .main_text {
+        top: 11%;
+    }
+
+    .product .p_header h2 {
+        font-size: 2.8rem;
+    }
+
+    .product .p_header ul li {
+        font-size: 0.8rem;
+        margin-right: 14px;
+    }
+
+    .exhibition .box .ex_text .title {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .product .p_header ul li {
+        margin-right: 3px;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    html {
+        font-size: 13px;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    main {
+        height: 260vh;
+    }
+
+    main #main_i {
+        height: 160vh;
+    }
+
+    main #main_i .main_camera {
+        top: 18%;
+        left: 10%;
+    }
+
+    main #main_i .main_camera img {
+        width: 80%;
+    }
+
+    main #main_i .main_text {
+        top: 30%;
+        left: 10%;
+    }
+
+    main #allbanner .banner {
+        padding: 0 16px;
+    }
+    main #allbanner .banner .slide{
+        height: 55vh;
+    }
+
+    .product {
+        padding: 50px 16px;
+    }
+
+    .product .p_header h2 {
+        font-size: 4rem;
+    }
+
+    .product .p_header ul {
+        display: none;
+    }
+
+    .product .p_header .sel {
+        display: block;
+        margin-top: 125px;
+    }
+    .product .allbox .box{
+        height: 116vh;
+    }
+
+
+    .exhibition {
+        margin-top: 0;
+    }
+
+    .exhibition .box {
+        width: 100%;
+        padding: 0 16px;
+        flex-direction: column;
+        position: unset
+    }
+
+    .exhibition .box .ex_text {
+        width: 100%;
+        position: unset;
+        order: 2;
+    }
+
+    .exhibition .box .img {
+        width: 100%;
+        order: 1;
+    }
+
+    .class {
+        background-image: url(../images/class/bg1.png);
+        background-position: center;
+        background-size: cover;
+        margin-top: 100px;
+    }
+    .class #allbox1{
+        padding: 0 16px;
+    }
+    .class #allbox1 .box_title {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .class #allbox2 {
+        grid-template-columns: 1fr;
+    }
+
+    .class #allbox2>div {
+        min-height: 0;
+    }
+
+    .class #allbox2 .box1 {
+        grid-column: auto;
+        grid-row: auto;
+        order: 1;
+    }
+
+    .class #allbox2 .box2 {
+        grid-column: auto;
+        grid-row: auto;
+        order: 3;
+    }
+
+    .class #allbox2 .box2 .about {
+        width: fit-content;
+        margin: 30px auto;
+    }
+
+    .class #allbox2 .img {
+        width: 50%;
+        margin: auto;
+        grid-column: auto;
+        grid-row: auto;
+        order: 2;
+    }
+
+    .store h2 {
+        padding: 0 16px;
+    }
+
+    .store .slide {
+        padding-left: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .service .allbox {
+        padding: 0 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service .allbox .box {
+        width: 95%;
+    }
+
+    footer {
+        padding: 0 16px;
+    }
+
+    footer .ftmenu {
+        display: none;
+    }
+
+    footer .fcompany {
+        margin-top: 50px;
+    }
+
+    footer .fcompany ul {
+        flex-direction: column;
+    }
+
+    footer .fcompany ul li {
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+
+    footer .copy p {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:500px) {
+    main{
+        height: 280vh;
+    }
+    main #main_i{
+        height: 180vh;
+    }
+    main #main_i .main_camera{
+        top: 13%;
+    }
+    main #main_i .main_text {
+        top: 22%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    html {
+        font-size: 13px;
+    }
+
+    .exhibition .box .ex_text .title {
+        font-size: 2rem;
+    }
+
+    .store h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 12px;
+    }
+    main #main_i .main_camera{
+        top: 10%;
+    }
+    main #main_i .main_text{
+        top: 18%;
+    }
+    main #main_i .main_text h2 {
+        font-size: 1.8rem;
+    }
+
+    main #allbanner .banner h3 {
+        font-size: 1.6rem;
+    }
+
+    main #allbanner .banner .slide {
+        height: 35vh;
+    }
+
+    main #allbanner .banner p {
+        padding: 0 20px;
+        font-size: 1.2rem;
+    }
+    main #allbanner .banner p>br{
+        display: block;
+    }
+    .product .p_header .sel {
+        margin-top: 104px;
+        width: 30%;    
+    }
+
+    .exhibition .box .ex_text .title {
+        font-size: 1.8rem;
+    }
+
+    .store h2 {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media screen and (max-height:430px) {
+    main{
+        height: 430vh;
+    }
+    main #main_i{
+        height: 350vh;
+    }
+    main #allbanner{
+        height: 180vh;
+    }
+    .product{
+        margin-top: 374px;
+    }
+    .product .allbox .box{
+        height: 230vh;
+    }
+    .product .allbox{
+        height: 230vh;
+    }
+    .submenu .close{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .submenu ul li{
+        margin-top: 0;
+        font-size: 21px;
+    }
+}
