@@ -1,1 +1,1 @@
-# leica
+Leica Brand Redesign Project
